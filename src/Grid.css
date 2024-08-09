@@ -1,0 +1,23 @@
+.grid-container {
+  text-align: center;
+}
+
+.grid-wrapper {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
