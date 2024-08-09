@@ -6,7 +6,7 @@ import sound from './assets/collect.wav';
 import { coordinates } from './types';
 
 function App() {
-  const size: number = 10;
+  const size: number = 5;
 
   const [playerCoordinates, setPlayerCoordinates] = useState<coordinates>({ x: 0, y: 0 });
   const [candyCoordinates, setCandyCoordinates] = useState<coordinates>({ x: 4, y: 4 });
